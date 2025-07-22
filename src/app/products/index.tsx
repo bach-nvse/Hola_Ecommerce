@@ -1,6 +1,6 @@
 import Header from "@/app/homepage/Header";
 import Footer from "@/app/homepage/Footer";
-import { ProductCard } from "./ProductCard";
+import { ProductCard } from "../../components/products/ProductCard";
 
 const products = [
   { name: "Nike Dunk Low", image: "/images/Product13_large.webp", price: 150, slug: "nike-dunk-low" },

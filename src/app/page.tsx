@@ -5,13 +5,12 @@ import ServiceFeatures from "@/app/homepage/ServiceFeatures";
 import Banner from "@/app/homepage/Banner";
 import HeroSection from "@/app/homepage/HeroSection";
 import HeroSection_2 from "@/app/homepage/HeroSection_2";
-import FeaturedProducts from "@/app/products/FeaturedProducts";
-import TileProductList from "@/app/homepage/TileProductList";
+import FeaturedProducts from "@/components/products/FeaturedProducts";
+import TileProductList from "@/components/products/TileProductList";
 
 export default function HomePage() {
   return (
     <>
-    <Header />
     <Banner />
     <ServiceFeatures />
     <HeroSection />

@@ -1,6 +1,6 @@
 import Header from "@/app/homepage/Header";
 import Footer from "@/app/homepage/Footer";
-import { ProductCard } from "@/app/products/ProductCard";
+import { ProductCard } from "@/components/products/ProductCard";
 import Banner from "@/app/homepage/Banner";
 
 export default function HomePage() {
