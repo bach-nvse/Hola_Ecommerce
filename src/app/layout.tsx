@@ -3,13 +3,6 @@ import './globals.css';
 import type { Metadata } from "next";
 import Headers from "@/components/homepage/Header";
 import Footer from '@/components/homepage/Footer';
-import { Outfit } from 'next/font/google';
-
-const outfit = Outfit({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-outfit',
-});
 
 export const metadata: Metadata = {
   title: "Hola Ecommerce",
@@ -18,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={outfit.variable}>
+    <html lang="en" className="tc-new-price">
       <body className="font-sans bg-white text-black">
         <main className="min-h-screen">
           <Headers/>
