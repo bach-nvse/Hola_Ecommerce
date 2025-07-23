@@ -54,7 +54,7 @@ export default function Header() {
         <nav className="hidden md:flex justify-center space-x-6 text-sm font-semibold uppercase tracking-widest text-gray-800 py-3 border-t">
           <Link href="/" className="hover:text-pink-600">Home</Link>
           <Link href="/catalog" className="hover:text-pink-600">Catalog</Link>
-          <Link href="/shop" className="hover:text-pink-600">Shop</Link>
+          <Link href="/products" className="hover:text-pink-600">Shop</Link>
           <Link href="/blog" className="hover:text-pink-600">Blog</Link>
           <Link href="/about" className="hover:text-pink-600">About Us</Link>
         </nav>
@@ -64,7 +64,7 @@ export default function Header() {
           <div className="md:hidden bg-white border-t px-6 pb-4 space-y-4 text-sm font-semibold uppercase tracking-widest text-gray-800">
             <Link href="/" className="block hover:text-pink-600">Home</Link>
             <Link href="/catalog" className="block hover:text-pink-600">Catalog</Link>
-            <Link href="/shop" className="block hover:text-pink-600">Shop</Link>
+            <Link href="/products" className="block hover:text-pink-600">Shop</Link>
             <Link href="/blog" className="block hover:text-pink-600">Blog</Link>
             <Link href="/about" className="block hover:text-pink-600">About Us</Link>
             <Link href="/faq" className="block hover:text-pink-600">FAQ</Link>

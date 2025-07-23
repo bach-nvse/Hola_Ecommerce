@@ -1,7 +1,7 @@
-import Header from "@/app/homepage/Header";
-import Footer from "@/app/homepage/Footer";
+import Header from "@/components/homepage/Header";
+import Footer from "@/components/homepage/Footer";
 import { ProductCard } from "@/components/products/ProductCard";
-import Banner from "@/app/homepage/Banner";
+import Banner from "@/components/homepage/Banner";
 
 export default function HomePage() {
   const featured = [

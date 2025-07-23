@@ -6,7 +6,7 @@ export default function HeroSection() {
       {/* Left Image */}
       <div className="w-full md:w-1/2">
         <img
-          src="/images/Hero-01.webp"
+          src="/images/Hero-05.jpg"
           alt="Interior"
           className="w-full h-auto rounded-lg object-cover"
         />

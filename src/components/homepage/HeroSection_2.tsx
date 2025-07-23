@@ -9,7 +9,7 @@ export default function HeroSection() {
       {/* Left Image */}
       <div className="w-full md:w-1/2 relative aspect-[3/2]">
         <Image
-          src="/images/Hero-01.webp"
+          src="/images/Hero-03.jpg"
           alt="Interior Left"
           fill
           className="rounded-lg object-cover"
@@ -19,7 +19,7 @@ export default function HeroSection() {
       {/* Right Image */}
       <div className="w-full md:w-1/2 relative aspect-[3/2]">
         <Image
-          src="/images/Hero-02.webp"
+          src="/images/Hero-04.jpg"
           alt="Interior Right"
           fill
           className="rounded-lg object-cover"
