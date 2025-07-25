@@ -4,9 +4,9 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 const images = [
-  '/images/Banner-02.jpg',
-  '/images/Banner-03.jpg',
-  '/images/Banner-04.jpg',
+  '/images/banner-02.jpg',
+  '/images/banner-03.jpg',
+  '/images/banner-04.jpg',
 ];
 
 export default function Banner() {
