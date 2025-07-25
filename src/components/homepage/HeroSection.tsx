@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // src/app/components/homepage/HeroSection.tsx
 
 export default function HeroSection() {
@@ -5,11 +6,7 @@ export default function HeroSection() {
     <section className="w-full bg-white py-10 px-4 md:px-16 lg:px-24 flex flex-col-reverse md:flex-row items-center gap-10">
       {/* Left Image */}
       <div className="w-full md:w-1/2">
-        <img
-          src="/images/Hero-05.jpg"
-          alt="Interior"
-          className="w-full h-auto rounded-lg object-cover"
-        />
+        <img src="/images/hero-05.jpg" alt="Interior" className="w-full h-auto rounded-lg object-cover"/>
       </div>
 
       {/* Right Content */}
