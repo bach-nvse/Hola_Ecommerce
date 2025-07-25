@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "cross-env NEXT_IGNORE_TS_ERRORS=true next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && git add . && git commit -m 'deploy' && git push"
   },
   "dependencies": {
     "@next/font": "^14.2.15",
