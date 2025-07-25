@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   distDir: 'docs',
   assetPrefix: './',
+   basePath: '',  
   images: {
     unoptimized: true, // Bắt buộc khi export static
     remotePatterns: [
